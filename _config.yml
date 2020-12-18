@@ -7,16 +7,16 @@ url: "" # the base hostname & protocol for your site
 description: "Your site description"
 copyright: "Commons Attribution 4.0 International"
 robot: ""
-keywords: "Jekyll Persian Jalali Date Bootstrap Jekyll-theme"
-
-twitter_username: radmanesh
-github_username:  radmanesh
-fullname: "نام کامل"
+keywords: "Jekyll Hebrew Bootstrap Jekyll-theme"
+encoding: utf-8
+twitter_username: user
+github_username:  user
+fullname: "user name"
 favicon: "assets/img/favicon.png"
 
 permalink: :title.html
 
-timezone: Iran/Tehran
+timezone: Israel/Jerusalem
 
 paginate: 5
 paginate_path: "/page:num/"
@@ -25,15 +25,11 @@ tag_page_layout: tag_page
 tag_page_dir: tag
 
 plugins:
-  - jekyll-jalali
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-hinduarabic
   - jekyll-seo-tag
-  - jekyll/tagging
-  - jekyll-tagging-related_posts
 
-lang: fa_IR
+lang: he_IL
 
 disqus: false
 disqus_shortname:

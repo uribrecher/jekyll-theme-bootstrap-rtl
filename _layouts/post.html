@@ -18,7 +18,7 @@ layout: default
   <div id="post-tags" class="post-tags">
     <ul class="list-inline">
       {% for tag in page.tags %}
-      <li><a rel="tag" href="{{ tag | tag_url  }}"><span class="label label-primary label-tag"><i class="fa fa-tag" aria-hidden="true"></i> {{tag}}</span></a></li>
+      <li><a rel="tag" href="{{ tag | tag_url  }}"><span class="label label-primary label-tag"><i class="he he-tag" aria-hidden="true"></i> {{tag}}</span></a></li>
       {% endfor %}
     </ul>
   </div>
@@ -38,7 +38,7 @@ layout: default
   <hr>
   {% if site.related_posts.size >= 1 %}
   <div>
-    <h3>مطالب مرتبط</h3>
+    <h3>פוסטים דומים</h3>
     <ul>
     {% for related_post in site.related_posts limit: 5 %}
       <li><a href="{{ related_post.url }}">{{ related_post.title }}</a></li>
